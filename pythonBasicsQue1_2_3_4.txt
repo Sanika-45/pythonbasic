@@ -1,0 +1,40 @@
+1. lnbsum.py
+x = list(map(int, input("Enter values: ").split()))
+print("List of students: ", x)
+for ele in x:
+    if ele >= 9:
+        x.remove(ele)
+print("List of ele less than 9: ", x)
+y=0
+for ele1 in x:
+      y = y+ele1
+print("Sum: ", y)
+
+2. lnbcal.py
+def fun(x,y):
+  if x*y > 500:
+    return(x+y)
+  else:
+    return("Hello LNB code is running fine !!")
+  
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print(fun(a,b))
+
+3. lnbstrindex.py
+str = input("Enter string: ")
+
+if len(str)>7:
+  print(str[::2])
+else:
+  print(str[1::2])
+
+4. lnblist.py
+L1 = [11,21,24,12,18]
+L2 = [14,44,25,37,13]
+L3 = []
+
+L3.extend(L1[::2])
+L3.extend(L2[1::2])
+
+print(L3)
