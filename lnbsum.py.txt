@@ -1,0 +1,10 @@
+x = list(map(int, input("Enter values: ").split()))
+print("List of students: ", x)
+for ele in x:
+    if ele >= 9:
+        x.remove(ele)
+print("List of ele less than 9: ", x)
+y=0
+for ele1 in x:
+      y = y+ele1
+print("Sum: ", y)

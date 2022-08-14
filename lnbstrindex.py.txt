@@ -1,0 +1,6 @@
+str = input("Enter string: ")
+
+if len(str)>7:
+  print(str[::2])
+else:
+  print(str[1::2])

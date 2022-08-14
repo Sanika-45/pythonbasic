@@ -1,0 +1,9 @@
+def fun(x,y):
+  if x*y > 500:
+    return(x+y)
+  else:
+    return("Hello LNB code is running fine !!")
+  
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print(fun(a,b))
